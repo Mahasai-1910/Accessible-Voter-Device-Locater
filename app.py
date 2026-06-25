@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import streamlit as st
 
-from utils.auth import logout, verify_login
+from auth import logout , verify_login
 from utils.chatbot import render_chat_panel
 from utils.theme import (
     LOGO_PATH,
