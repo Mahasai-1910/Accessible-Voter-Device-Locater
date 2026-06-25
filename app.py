@@ -4,9 +4,9 @@ from __future__ import annotations
 
 import streamlit as st
 
-from auth import logout , verify_login
-from chatbot import render_chat_panel
-from theme import (
+from utils .auth import logout , verify_login
+from utils.chatbot import render_chat_panel
+from utils.theme import (
     LOGO_PATH,
     inject_global_css,
     init_session_defaults,
